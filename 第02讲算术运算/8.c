@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
-{
+
+int main() {
     system("color f5");
-   // system("color A");
+    // system("color A");
     printf("A\n");
     printf("BC\n");
     printf("DEF\n");

@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main()
-{
-    int a=1;
-    printf("µÚ1´úÏ¸¾ú¸öÊýÎª:%d\n",a);
-    a=a*2;
-    a=a*2;
-    a=a*2;
-    a=a*2;
-    a=a*2;
-    a=a*2;
-    a=a*2;
-    a=a*2;
-    a=a*2;
-    a=a*2;
-    printf("µÚ11´úÏ¸¾ú¸öÊýÎª:%d\n",a);
+
+int main() {
+    int a = 1;
+    printf("ï¿½ï¿½1ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª:%d\n", a);
+    a = a * 2;
+    a = a * 2;
+    a = a * 2;
+    a = a * 2;
+    a = a * 2;
+    a = a * 2;
+    a = a * 2;
+    a = a * 2;
+    a = a * 2;
+    a = a * 2;
+    printf("ï¿½ï¿½11ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª:%d\n", a);
     return 0;
 }
