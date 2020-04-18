@@ -1,16 +1,17 @@
 #include<stdio.h>
+
 int main() {
-	int n;
-	scanf("%d",&n);
-	
-	int a=1;
-	int s=0;
-	while(a<=n) {
+    int n;
+    scanf("%d", &n);
 
-	    s=s+a;
+    int a = 1;
+    int s = 0;
+    while (a <= n) {
 
-		a=a+2;
-	}
-	printf("%d ",s);
-	return 0;
+        s = s + a;
+
+        a = a + 2;
+    }
+    printf("%d ", s);
+    return 0;
 }
