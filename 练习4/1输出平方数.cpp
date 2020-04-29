@@ -2,10 +2,11 @@
 
 int main() {
 
-    int n,a = 1;
-    scanf("%d",&n);
+    int a = 1,n=10;
+     
     while (a <= n) {
-        printf("%d\n ", a);
+    	if(a*a>=10&&a*a<100) 
+           printf("%d ", a*a);
         a = a + 1;
     }
     return 0;
