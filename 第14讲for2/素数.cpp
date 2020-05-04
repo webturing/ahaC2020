@@ -4,7 +4,7 @@ int main()
 	int n=2147483647;
 	int s=1;
 	int i;
-	for(i=2; i<=n-1; i++)
+	for(i=2; i<=n/i; i++)
 	{
 		if(n%i==0)
 		{
